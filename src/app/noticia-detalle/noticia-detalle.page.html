@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{noticia.titulo}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>{{noticia.descripcion}}</h2>
+  <p>{{noticia.contenido}}</p>
+  <p>{{noticia.autor.nombre}} {{noticia.autor.apellido}}</p>
+  <p>{{noticia.fecha | date}}</p>
+ 
+  
+</ion-content>
